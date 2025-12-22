@@ -1,10 +1,9 @@
 # pdshelf
 ## stack
-- Frontend: React 18+ (TypeScript) with PDF.js for rendering
-- Backend: NestJS (Express alternative noted) with TypeORM/PostgreSQL
-- Native Layer: C module via Node-API (N-API) for text extraction & indexing
+- Frontend: React (TypeScript), PDF.js
+- Backend: NestJS/Express, TypeORM/PostgreSQL
+- Native Layer: C module Node-API (N-API)
 - Storage: Local filesystem (upgradeable to S3)
-- Goal: MVP → Linux desktop packaging
 ## initial filestructure
 pdf-library-app/
 ├── backend/                    # NestJS application
