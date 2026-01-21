@@ -6,7 +6,7 @@
 - Storage: Local filesystem (upgradeable to S3)
 ## initial filestructure
 pdf-library-app/
-├── backend/                    # NestJS application
+├── backend/                    # NestJS application\n
 │   ├── src/
 │   │   ├── modules/           # Feature modules
 │   │   ├── core/              # Shared services
